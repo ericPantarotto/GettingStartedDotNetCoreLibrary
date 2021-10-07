@@ -4058,16 +4058,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
+      "projectUniqueName": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
       "projectName": "DataLibraryRepo",
-      "projectPath": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
+      "projectPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
       "packagesPath": "C:\\Users\\ecr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\obj\\",
+      "outputPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+        "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\NuGet.Config",
         "C:\\Users\\ecr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4075,12 +4076,7 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/mdoeric/DockerTools/_packaging/DemoFeed/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/mdoeric/NuGetDemo/_packaging/DemoFeedNuget/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/mdoeric/_packaging/mdoeric/nuget/v3/index.json": {},
-        "https://www.myget.org/F/caliburn-micro-builds/api/v3/index.json": {}
+        "https://pkgs.dev.azure.com/mdoeric/GettingStartingASPNetCoreLibrary/_packaging/GSAspNetCoreFeed/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
