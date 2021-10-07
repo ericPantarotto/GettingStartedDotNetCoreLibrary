@@ -20,7 +20,12 @@
       "ProjectGuid": "70ee3f12-d3a6-44c5-9e77-5229623d69d9",
       "DisplayName": "DataLibraryRepo",
       "ColorIndex": 2
+    },
+    "ad94c98a-0317-4690-b0ca-e1009dcc6adf": {
+      "ProjectGuid": "ad94c98a-0317-4690-b0ca-e1009dcc6adf",
+      "DisplayName": "ConsoleTest",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

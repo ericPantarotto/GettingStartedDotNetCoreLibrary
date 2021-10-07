@@ -5088,11 +5088,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj",
       "projectName": "DataLibrary",
-      "projectPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj",
+      "projectPath": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj",
       "packagesPath": "C:\\Users\\ecr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\obj\\",
+      "outputPath": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5109,6 +5109,7 @@
         "https://api.nuget.org/v3/index.json": {},
         "https://pkgs.dev.azure.com/mdoeric/DockerTools/_packaging/DemoFeed/nuget/v3/index.json": {},
         "https://pkgs.dev.azure.com/mdoeric/NuGetDemo/_packaging/DemoFeedNuget/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/mdoeric/_packaging/mdoeric/nuget/v3/index.json": {},
         "https://www.myget.org/F/caliburn-micro-builds/api/v3/index.json": {}
       },
       "frameworks": {
