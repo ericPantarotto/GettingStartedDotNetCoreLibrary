@@ -22,6 +22,7 @@ namespace DataLibraryRepo.Data
         {
             using IDbConnection connection = new SqlConnection(_connectionString);
             return connection.QueryAll<FoodModel>().ToList();
+            
         }
     }
 }
