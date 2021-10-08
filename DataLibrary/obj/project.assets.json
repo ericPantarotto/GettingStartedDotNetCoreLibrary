@@ -5086,7 +5086,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj",
       "projectName": "DataLibrary",
