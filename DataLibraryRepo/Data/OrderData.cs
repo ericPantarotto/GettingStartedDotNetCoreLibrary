@@ -23,7 +23,6 @@ namespace DataLibraryRepo.Data
             using (var connection = new SqlConnection(_connectionString))
             {
                 //bulkmerge can only be used with a list of objects
-
                 connection.Merge(order
                     , qualifiers: r => new { r.OrderName, r.OrderDate });
 
