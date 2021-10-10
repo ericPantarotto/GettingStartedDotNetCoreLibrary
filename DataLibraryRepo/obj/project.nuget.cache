@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H02cKL/hbmH8LneNQM0jpAsF8zisRqDNy7idEIemF6Qx2Zt55fHvQ1OlMr01jrWgLv7/cugESzah+oL5D1BPaQ==",
+  "dgSpecHash": "oyyeccSknxjlQhVxBlV/AnVnZoDdruITgKMx00Zt3nLcxbQXcDTKpqRjXwjmc27HtjuHMJGz9Q4aHXS7avr2MQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
+  "projectFilePath": "C:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ecr\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\ecr\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
