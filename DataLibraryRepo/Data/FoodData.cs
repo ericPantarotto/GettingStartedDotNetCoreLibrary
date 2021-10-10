@@ -32,5 +32,6 @@ namespace DataLibraryRepo.Data
                 return connection.Query<FoodModel>(c => c.Id == foodId).FirstOrDefault();
             }
         }
+        
     }
 }
