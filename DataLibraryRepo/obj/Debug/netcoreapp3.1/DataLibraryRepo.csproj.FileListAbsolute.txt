@@ -18,3 +18,13 @@ C:\Users\ecr\source\GettingStartedDotNetCore Library\DataLibraryRepo\obj\Debug\n
 C:\Users\ecr\source\GettingStartedDotNetCore Library\DataLibraryRepo\bin\Debug\netcoreapp3.1\DataLibraryRepo.deps.json
 C:\Users\ecr\source\GettingStartedDotNetCore Library\DataLibraryRepo\bin\Debug\netcoreapp3.1\DataLibraryRepo.dll
 C:\Users\ecr\source\GettingStartedDotNetCore Library\DataLibraryRepo\bin\Debug\netcoreapp3.1\DataLibraryRepo.pdb
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\bin\Debug\netcoreapp3.1\DataLibraryRepo.deps.json
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\bin\Debug\netcoreapp3.1\DataLibraryRepo.dll
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\bin\Debug\netcoreapp3.1\DataLibraryRepo.pdb
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\obj\Debug\netcoreapp3.1\DataLibraryRepo.csproj.AssemblyReference.cache
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\obj\Debug\netcoreapp3.1\DataLibraryRepo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\obj\Debug\netcoreapp3.1\DataLibraryRepo.AssemblyInfoInputs.cache
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\obj\Debug\netcoreapp3.1\DataLibraryRepo.AssemblyInfo.cs
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\obj\Debug\netcoreapp3.1\DataLibraryRepo.csproj.CoreCompileInputs.cache
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\obj\Debug\netcoreapp3.1\DataLibraryRepo.dll
+C:\Users\ecr\source\GettingStartedASPNetCore Library\DataLibraryRepo\obj\Debug\netcoreapp3.1\DataLibraryRepo.pdb
