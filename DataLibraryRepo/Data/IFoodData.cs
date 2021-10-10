@@ -7,5 +7,6 @@ namespace DataLibraryRepo.Data
     public interface IFoodData
     {
         List<FoodModel> GetFood();
+        FoodModel GetFoodById(int foodId);
     }
 }
