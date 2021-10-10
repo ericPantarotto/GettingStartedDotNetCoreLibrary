@@ -4058,17 +4058,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
+      "projectUniqueName": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
       "projectName": "DataLibraryRepo",
-      "projectPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
+      "projectPath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj",
       "packagesPath": "C:\\Users\\ecr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\obj\\",
+      "outputPath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibraryRepo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\NuGet.Config",
+        "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibraryRepo\\NuGet.Config",
         "C:\\Users\\ecr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

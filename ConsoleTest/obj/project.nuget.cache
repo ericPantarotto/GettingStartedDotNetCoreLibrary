@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2howBCLirwKTPYtX2ecwh/k5IRCbqL5QZ01Qt8Iqi1GwbledSuCtAujVa63UpB4eA7CHDyv0ZMeJknNNL9ySzA==",
+  "dgSpecHash": "vebRN2CW+CrTVgXDYBwy4wu1GCWW6FJiTR78hnQKwzFgr8YD5Gx+ESLyA49zGTZE5XU2jHX+XluYoJLaGxktQg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\ConsoleTest\\ConsoleTest.csproj",
+  "projectFilePath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\ConsoleTest\\ConsoleTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ecr\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\ecr\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

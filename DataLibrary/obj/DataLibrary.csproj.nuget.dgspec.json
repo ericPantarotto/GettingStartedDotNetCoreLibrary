@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj": {}
+    "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibrary\\DataLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj": {
+    "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibrary\\DataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj",
+        "projectUniqueName": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibrary\\DataLibrary.csproj",
         "projectName": "DataLibrary",
-        "projectPath": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj",
+        "projectPath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibrary\\DataLibrary.csproj",
         "packagesPath": "C:\\Users\\ecr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\obj\\",
+        "outputPath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\NuGet.Config",
+          "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibrary\\NuGet.Config",
           "C:\\Users\\ecr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

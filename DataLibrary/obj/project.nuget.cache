@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nz3oDEHViDp6hTaSomuax7xNdxE4K/ipFdxKqEQWhOmLfMnQrQ1BNmsd57bY5Cy6uzGdocTivLxo/4Xjq7na5w==",
+  "dgSpecHash": "GNSRcQQDlEVyZoOEzjOwIIL6kRO7Y5g3uxhNUJJcqa1dFv6wIVNnu1s6JispaOEdfFJM8sLfJhxuAwEEVqxKuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibrary\\DataLibrary.csproj",
+  "projectFilePath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibrary\\DataLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ecr\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\ecr\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

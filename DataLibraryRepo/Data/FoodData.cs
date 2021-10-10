@@ -24,5 +24,13 @@ namespace DataLibraryRepo.Data
             return connection.QueryAll<FoodModel>().ToList();
             
         }
+
+        public FoodModel GetFoodById(int foodId)
+        {
+            using (IDbConnection connection = new SqlConnection(_connectionString))
+            {
+                return connection.Query<FoodModel>(c => c.Id == foodId).FirstOrDefault();
+            }
+        }
     }
 }

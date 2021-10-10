@@ -4913,11 +4913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\ConsoleTest\\ConsoleTest.csproj",
+      "projectUniqueName": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\ConsoleTest\\ConsoleTest.csproj",
       "projectName": "ConsoleTest",
-      "projectPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\ConsoleTest\\ConsoleTest.csproj",
+      "projectPath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\ConsoleTest\\ConsoleTest.csproj",
       "packagesPath": "C:\\Users\\ecr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\ConsoleTest\\obj\\",
+      "outputPath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\ConsoleTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4941,8 +4941,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj": {
-              "projectPath": "c:\\Users\\ecr\\source\\GettingStartedDotNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj"
+            "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj": {
+              "projectPath": "c:\\Users\\ecr\\source\\GettingStartedASPNetCore Library\\DataLibraryRepo\\DataLibraryRepo.csproj"
             }
           }
         }
