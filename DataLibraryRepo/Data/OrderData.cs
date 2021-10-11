@@ -1,6 +1,7 @@
 ﻿using DataLibraryRepo.Models;
 using Microsoft.Extensions.Configuration;
 using RepoDb;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -18,14 +19,15 @@ namespace DataLibraryRepo.Data
             _connectionString = _config.GetConnectionString("sqlserver");
         }
 
-        public void CreateOrder(OrderModel order)
+        public int CreateOrder(OrderModel order)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
                 //bulkmerge can only be used with a list of objects
-                connection.Merge(order
+                 var id = connection.Merge(order
                     , qualifiers: r => new { r.OrderName, r.OrderDate });
 
+                return Convert.ToInt32(id);
             }
         }
 

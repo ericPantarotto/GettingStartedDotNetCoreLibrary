@@ -34,7 +34,7 @@ namespace ConsoleUI
             var foodList = _foodData.GetFood();
 
             
-             _orderData.CreateOrder(new OrderModel{
+             int id = _orderData.CreateOrder(new OrderModel{
                  FoodId = 1,
                  OrderName = "Rico",
                  Quantity = 5,

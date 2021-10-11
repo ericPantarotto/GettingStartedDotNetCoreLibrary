@@ -5,7 +5,7 @@ namespace DataLibraryRepo.Data
 {
     public interface IOrderData
     {
-        void CreateOrder(OrderModel order);
+        int CreateOrder(OrderModel order);
         void DeleteOrder(int orderId);
         OrderModel GetOrderById(int orderId);
         void UpdateOrderName(OrderModel order);
