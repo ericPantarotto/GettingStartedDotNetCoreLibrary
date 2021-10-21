@@ -4,7 +4,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DataLibraryRepo.Models
 {
-    public class OrderModel
+
+    public class OrderModel : IOrderModel
     {
         public int Id { get; set; }
 

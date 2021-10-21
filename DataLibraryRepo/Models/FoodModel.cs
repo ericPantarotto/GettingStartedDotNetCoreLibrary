@@ -4,7 +4,8 @@ using System.Text;
 
 namespace DataLibraryRepo.Models
 {
-    public class FoodModel
+
+    public class FoodModel : IFoodModel
     {
         public int Id { get; set; }
         public string Title { get; set; }
