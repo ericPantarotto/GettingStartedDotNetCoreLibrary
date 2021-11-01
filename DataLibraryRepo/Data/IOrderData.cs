@@ -1,4 +1,5 @@
 ﻿using DataLibraryRepo.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace DataLibraryRepo.Data
@@ -8,6 +9,7 @@ namespace DataLibraryRepo.Data
         int CreateOrder(OrderModel order);
         void DeleteOrder(int orderId);
         OrderModel GetOrderById(int orderId);
+        List<OrderModel> GetOrders();
         void UpdateOrderName(OrderModel order);
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using RepoDb;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -55,6 +56,13 @@ namespace DataLibraryRepo.Data
             {
                 return connection.Query<OrderModel>(c => c.Id == orderId).FirstOrDefault();
             }
+        }
+
+        public List<OrderModel> GetOrders()
+        {
+            using IDbConnection connection = new SqlConnection(_connectionString);
+            return connection.QueryAll<OrderModel>().ToList();
+            
         }
     }
 }
