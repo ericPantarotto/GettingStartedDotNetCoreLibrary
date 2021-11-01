@@ -58,7 +58,7 @@ namespace DataLibraryRepo.Data
             }
         }
 
-        public List<OrderModel> GetOrdersAll()
+        public List<OrderModel> GetOrder()
         {
             using IDbConnection connection = new SqlConnection(_connectionString);
             return connection.QueryAll<OrderModel>().ToList();
