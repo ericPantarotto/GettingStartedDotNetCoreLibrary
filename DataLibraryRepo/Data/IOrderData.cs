@@ -9,7 +9,7 @@ namespace DataLibraryRepo.Data
         int CreateOrder(OrderModel order);
         void DeleteOrder(int orderId);
         OrderModel GetOrderById(int orderId);
-        List<OrderModel> GetOrders();
+        List<OrderModel> GetOrdersAll();
         void UpdateOrderName(OrderModel order);
     }
 }
