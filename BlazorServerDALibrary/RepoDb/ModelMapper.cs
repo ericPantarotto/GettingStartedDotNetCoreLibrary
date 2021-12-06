@@ -19,7 +19,7 @@ namespace BlazorServerDALibrary.RepoDB
             if (_modelMapped) return;
 
             FluentMapper
-                .Entity<PersonModel>()
+                .Entity<IPersonModel>()
                 .Table("[dbo].[People]");
 
             _modelMapped = true;
