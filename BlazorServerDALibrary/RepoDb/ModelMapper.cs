@@ -2,7 +2,7 @@ using BlazorServerDALibrary.Models;
 using RepoDb;
 
 
-namespace BillTimeLibrary.RepoDB
+namespace BlazorServerDALibrary.RepoDB
 {
     //https://repodb.net/mapper/fluentmapper
     public class ModelMapper

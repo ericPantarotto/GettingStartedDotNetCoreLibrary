@@ -10,8 +10,4 @@
     <PackageReference Include="RepoDb.SqlServer" Version="1.1.4" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DataAccess\" />
-  </ItemGroup>
-
 </Project>
