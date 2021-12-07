@@ -1,5 +1,6 @@
 ﻿using System;
 using BillTimeLibrary.RepoDB;
+using BlazorServerDALibrary.Data;
 using ConsoleUI;
 using DataLibraryRepo;
 using DataLibraryRepo.Data;
@@ -25,7 +26,8 @@ namespace ConsoleTest
 
             try
             {
-                services.GetRequiredService<App>().Run();
+                //services.GetRequiredService<App>().Run();
+                services.GetRequiredService<AppBS>().Run();
             }
             catch (Exception ex)
             {
@@ -44,8 +46,11 @@ namespace ConsoleTest
                 {
                     services
                         .AddTransient<App>()
+                        .AddTransient<AppBS>()
                         .AddTransient<IOrderData, OrderData>()
-                        .AddTransient<IFoodData, FoodData>();
+                        .AddTransient<IFoodData, FoodData>()
+                        .AddTransient<IPersonDataService, PersonSQLDataService>(); ;
+
                 })
                 ;
 

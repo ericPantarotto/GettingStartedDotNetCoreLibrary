@@ -6,7 +6,7 @@ namespace BlazorServerDALibrary.Data
 {
     public interface IPersonDataService
     {
-        Task<int> CreatePerson(IPersonModel person);
-        Task<List<IPersonModel>> ReadPeople();
+        Task<int> CreatePerson(PersonModel person);
+        List<PersonModel> ReadPeople();
     }
 }

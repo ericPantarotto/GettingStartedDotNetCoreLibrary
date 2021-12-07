@@ -21,7 +21,7 @@ namespace BlazorServerDALibrary.Data
             _connectionString = _config.GetConnectionString("SQLDB");
         }
 
-        public async Task<int> CreatePerson(IPersonModel person)
+        public async Task<int> CreatePerson(PersonModel person)
         {
             using IDbConnection connection = new SqlConnection(_connectionString);
             var id = await connection.MergeAsync(person
@@ -29,10 +29,11 @@ namespace BlazorServerDALibrary.Data
 
             return Convert.ToInt32(id);
         }
-        public async Task<List<IPersonModel>> ReadPeople()
+
+        public List<PersonModel> ReadPeople()
         {
-              using IDbConnection connection = new SqlConnection(_connectionString);
-            return connection.QueryAll<IPersonModel>().ToList();
+            using IDbConnection connection = new SqlConnection(_connectionString);
+            return connection.QueryAll<PersonModel>().ToList();
         }
     }
 }
