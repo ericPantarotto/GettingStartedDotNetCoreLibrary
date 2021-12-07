@@ -1,6 +1,8 @@
 ﻿using System;
 using BillTimeLibrary.RepoDB;
 using BlazorServerDALibrary.Data;
+using BlazorServerDALibrary.DataAccess;
+using BlazorServerDALibrary.Repositories;
 using ConsoleUI;
 using DataLibraryRepo;
 using DataLibraryRepo.Data;
@@ -49,7 +51,9 @@ namespace ConsoleTest
                         .AddTransient<AppBS>()
                         .AddTransient<IOrderData, OrderData>()
                         .AddTransient<IFoodData, FoodData>()
-                        .AddTransient<IPersonDataService, PersonSQLDataService>(); ;
+                        .AddTransient<IPersonDataService, PersonSQLDataService>()
+                        .AddSingleton<IPersonRepository, PersonRepository>()
+                        .AddSingleton<IPersonDataAccess, PersonDataAccess>();
 
                 })
                 ;
