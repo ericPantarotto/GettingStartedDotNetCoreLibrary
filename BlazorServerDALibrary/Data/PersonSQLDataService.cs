@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,11 +29,10 @@ namespace BlazorServerDALibrary.Data
 
             return Convert.ToInt32(id);
         }
-
-        public async Task<List<IPersonModel>> ReadPeople()
+        public async Task<List<IPersonModel>> IPersonDataService.ReadPeople()
         {
-            using IDbConnection connection = new SqlConnection(_connectionString);
+              using IDbConnection connection = new SqlConnection(_connectionString);
             return connection.QueryAll<IPersonModel>().ToList();
-        }        
+        }
     }
 }
