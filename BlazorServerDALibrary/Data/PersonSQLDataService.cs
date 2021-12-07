@@ -28,5 +28,11 @@ namespace BlazorServerDALibrary.Data
 
             return Convert.ToInt32(id);
         }
+
+        public async Task<List<IPersonModel>> ReadPeople()
+        {
+            using IDbConnection connection = new SqlConnection(_connectionString);
+            return connection.QueryAll<IPersonModel>().ToList();
+        }        
     }
 }
