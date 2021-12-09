@@ -29,19 +29,31 @@ namespace ConsoleUI
         {
             try
             {
-                var personList = await _personService.ReadPeopleAsync();
-                //var personList =  _personService.ReadPeople();
 
-                //Upadte
-                //var person = new PersonModel
+                //Create
+                //IPersonModel person = new PersonModel
                 //{
                 //    //Id = 1,
-                //    FirstName = "Rico",
-                //    LastName = "Carlier",
-                //    DateOfBirth = new DateTime(2021, 12, 7)
+                //    FirstName = "abobo",
+                //    LastName = "Lolo",
+                //    DateOfBirth = new DateTime(1970, 06, 06)
                 //};
 
                 //await _personService.CreatePerson(person);
+
+                //Read
+                //var personList = await _personService.ReadPeopleAsync();
+                //var personList =  _personService.ReadPeople();
+
+                //Update
+                IPersonModel person = new PersonModel
+                {
+                    Id = 2002,
+                    FirstName = "Abobo",
+                    LastName = "lolo",
+                    DateOfBirth = new DateTime(1970, 06, 07)
+                };
+                await _personService.UpdatePerson(person);
 
             }
             catch (Exception ex)

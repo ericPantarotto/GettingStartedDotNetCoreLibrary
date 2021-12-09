@@ -21,7 +21,7 @@ namespace BlazorServerDALibrary.Data
             _connectionString = _config.GetConnectionString("SQLDB");
         }
 
-        public async Task<int> CreatePerson(PersonModel person)
+        public async Task<int> CreatePerson(IPersonModel person)
         {
             using IDbConnection connection = new SqlConnection(_connectionString);
             var id = await connection.MergeAsync(person
@@ -41,7 +41,7 @@ namespace BlazorServerDALibrary.Data
             return await connection.QueryAllAsync<PersonModel>();
         }
 
-        public async Task<int> UpdatePerson(PersonModel person)
+        public async Task<int> UpdatePerson(IPersonModel person)
         {
             using IDbConnection connection = new SqlConnection(_connectionString);
             var id = await connection.MergeAsync(person

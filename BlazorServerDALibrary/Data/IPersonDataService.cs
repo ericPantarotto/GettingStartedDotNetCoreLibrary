@@ -6,9 +6,9 @@ namespace BlazorServerDALibrary.Data
 {
     public interface IPersonDataService
     {
-        Task<int> CreatePerson(PersonModel person);
+        Task<int> CreatePerson(IPersonModel person);
         List<PersonModel> ReadPeople();
         Task<IEnumerable<PersonModel>> ReadPeopleAsync();
-        Task<int> UpdatePerson(PersonModel person);
+        Task<int> UpdatePerson(IPersonModel person);
     }
 }
