@@ -49,5 +49,10 @@ namespace BlazorServerDALibrary.Data
 
             return Convert.ToInt32(id);
         }
+        public async Task DeletePerson(int personId)
+        {
+            using IDbConnection connection = new SqlConnection(_connectionString);
+            await connection.DeleteAsync<IPersonModel>(personId);
+        }
     }
 }

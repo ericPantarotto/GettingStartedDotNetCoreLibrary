@@ -46,14 +46,17 @@ namespace ConsoleUI
                 //var personList =  _personService.ReadPeople();
 
                 //Update
-                IPersonModel person = new PersonModel
-                {
-                    Id = 2002,
-                    FirstName = "Abobo",
-                    LastName = "lolo",
-                    DateOfBirth = new DateTime(1970, 06, 07)
-                };
-                await _personService.UpdatePerson(person);
+                //IPersonModel person = new PersonModel
+                //{
+                //    Id = 2002,
+                //    FirstName = "Abobo",
+                //    LastName = "lolo",
+                //    DateOfBirth = new DateTime(1970, 06, 07)
+                //};
+                //await _personService.UpdatePerson(person);
+
+                //Delete
+                await _personService.DeletePerson(2);
 
             }
             catch (Exception ex)
