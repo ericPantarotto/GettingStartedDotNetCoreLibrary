@@ -24,15 +24,24 @@ namespace ConsoleUI
             _personDataAccess = personDataAccess;
         }
 
-        public void Run()
-        //public async Task Run()
+        public async Task Run()
+        //public void Run()
         {
             try
             {
+                var personList = await _personService.ReadPeopleAsync();
                 //var personList =  _personService.ReadPeople();
 
-                //var personListAsync = await _personDataAccess.GetPeople();
-                var personList = _personDataAccess.GetPeople();
+                //Upadte
+                //var person = new PersonModel
+                //{
+                //    //Id = 1,
+                //    FirstName = "Rico",
+                //    LastName = "Carlier",
+                //    DateOfBirth = new DateTime(2021, 12, 7)
+                //};
+
+                //await _personService.CreatePerson(person);
 
             }
             catch (Exception ex)

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using BillTimeLibrary.RepoDB;
 using BlazorServerDALibrary.Data;
 using BlazorServerDALibrary.DataAccess;
@@ -14,7 +15,7 @@ namespace ConsoleTest
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             
             // var configuration = new ConfigurationBuilder()
@@ -29,7 +30,7 @@ namespace ConsoleTest
             try
             {
                 //services.GetRequiredService<App>().Run();
-                services.GetRequiredService<AppBS>().Run();
+                await services.GetRequiredService<AppBS>().Run();
             }
             catch (Exception ex)
             {

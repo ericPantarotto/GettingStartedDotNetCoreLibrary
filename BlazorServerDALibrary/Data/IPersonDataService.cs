@@ -8,5 +8,7 @@ namespace BlazorServerDALibrary.Data
     {
         Task<int> CreatePerson(PersonModel person);
         List<PersonModel> ReadPeople();
+        Task<IEnumerable<PersonModel>> ReadPeopleAsync();
+        Task<int> UpdatePerson(PersonModel person);
     }
 }

@@ -35,5 +35,19 @@ namespace BlazorServerDALibrary.Data
             using IDbConnection connection = new SqlConnection(_connectionString);
             return connection.QueryAll<PersonModel>().ToList();
         }
+        public async Task<IEnumerable<PersonModel>> ReadPeopleAsync()
+        {
+            using IDbConnection connection = new SqlConnection(_connectionString);
+            return await connection.QueryAllAsync<PersonModel>();
+        }
+
+        public async Task<int> UpdatePerson(PersonModel person)
+        {
+            using IDbConnection connection = new SqlConnection(_connectionString);
+            var id = await connection.MergeAsync(person
+                 , qualifiers: r => new { r.Id });
+
+            return Convert.ToInt32(id);
+        }
     }
 }
