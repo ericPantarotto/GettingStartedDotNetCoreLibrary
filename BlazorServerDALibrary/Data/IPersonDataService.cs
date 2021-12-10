@@ -10,6 +10,7 @@ namespace BlazorServerDALibrary.Data
         Task DeletePerson(int personId);
         List<PersonModel> ReadPeople();
         Task<List<IPersonModel>> ReadPeopleAsync();
+        Task<List<IPersonModel>> SearchPeople(string searchTerm);
         Task<int> UpdatePerson(IPersonModel person);
     }
 }

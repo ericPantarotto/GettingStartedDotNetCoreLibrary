@@ -38,6 +38,12 @@ namespace BlazorServerDALibrary.Data
             return await Task.FromResult(people);
         }
 
+        public async Task<List<IPersonModel>> SearchPeople(string searchTerm)
+        {
+            return (await Task.FromResult(people.Where(e => e.FirstName.Contains(searchTerm) || e.LastName.Contains(searchTerm))))
+                .ToList();
+        }
+
         public async Task<int> UpdatePerson(IPersonModel person)
         {
             var p = people.Where(p => p.Id == person.Id).FirstOrDefault();

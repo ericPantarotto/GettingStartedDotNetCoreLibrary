@@ -42,7 +42,7 @@ namespace ConsoleUI
                 //await _personService.CreatePerson(person);
 
                 //Read
-                var personList = await _personService.ReadPeopleAsync();
+                //var personList = await _personService.ReadPeopleAsync();
                 //var personList =  _personService.ReadPeople();
 
                 //Update
@@ -56,7 +56,10 @@ namespace ConsoleUI
                 //await _personService.UpdatePerson(person);
 
                 //Delete
-                await _personService.DeletePerson(2);
+                //await _personService.DeletePerson(2);
+
+                //search from name or firstname
+                var personList = await _personService.SearchPeople("ric");
 
             }
             catch (Exception ex)

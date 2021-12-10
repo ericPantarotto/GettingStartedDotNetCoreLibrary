@@ -57,5 +57,12 @@ namespace BlazorServerDALibrary.Data
             using IDbConnection connection = new SqlConnection(_connectionString);
             await connection.DeleteAsync<IPersonModel>(personId);
         }
+
+        public async Task<List<IPersonModel>> SearchPeople(string searchTerm)
+        {
+            using IDbConnection connection = new SqlConnection(_connectionString);
+            return (await connection.QueryAsync<PersonModel>(e => e.FirstName.Contains(searchTerm) || e.LastName.Contains(searchTerm) ))
+                .AsList<IPersonModel>();
+        }
     }
 }
