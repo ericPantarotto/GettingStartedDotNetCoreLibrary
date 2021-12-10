@@ -1,6 +1,7 @@
 ﻿using BlazorServerDALibrary.Models;
 using Microsoft.Extensions.Configuration;
 using RepoDb;
+using RepoDb.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -35,10 +36,12 @@ namespace BlazorServerDALibrary.Data
             using IDbConnection connection = new SqlConnection(_connectionString);
             return connection.QueryAll<PersonModel>().ToList();
         }
-        public async Task<IEnumerable<PersonModel>> ReadPeopleAsync()
+        public async Task<List<IPersonModel>> ReadPeopleAsync()
         {
             using IDbConnection connection = new SqlConnection(_connectionString);
-            return await connection.QueryAllAsync<PersonModel>();
+            return (await connection.QueryAllAsync<PersonModel>())
+                .AsList<IPersonModel>();
+                //.ToList<IPersonModel>();
         }
 
         public async Task<int> UpdatePerson(IPersonModel person)

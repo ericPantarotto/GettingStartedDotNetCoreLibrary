@@ -42,7 +42,7 @@ namespace ConsoleUI
                 //await _personService.CreatePerson(person);
 
                 //Read
-                //var personList = await _personService.ReadPeopleAsync();
+                var personList = await _personService.ReadPeopleAsync();
                 //var personList =  _personService.ReadPeople();
 
                 //Update
