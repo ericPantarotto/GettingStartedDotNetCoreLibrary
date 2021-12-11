@@ -60,9 +60,14 @@ namespace BlazorServerDALibrary.Data
 
         public async Task<List<IPersonModel>> SearchPeople(string searchTerm)
         {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+            {
+                return new List<IPersonModel>();
+            }
             using IDbConnection connection = new SqlConnection(_connectionString);
             return (await connection.QueryAsync<PersonModel>(e => e.FirstName.Contains(searchTerm) || e.LastName.Contains(searchTerm) ))
                 .AsList<IPersonModel>();
+
         }
     }
 }

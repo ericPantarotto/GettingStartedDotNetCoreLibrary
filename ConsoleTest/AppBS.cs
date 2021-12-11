@@ -59,7 +59,7 @@ namespace ConsoleUI
                 //await _personService.DeletePerson(2);
 
                 //search from name or firstname
-                var personList = await _personService.SearchPeople("ric");
+                var personList = await _personService.SearchPeople("iko");
 
             }
             catch (Exception ex)
